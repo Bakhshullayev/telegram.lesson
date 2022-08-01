@@ -1,6 +1,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-menuPyhon = ReplyKeyboardMarkup(
+menu_python = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text="Kirish"),

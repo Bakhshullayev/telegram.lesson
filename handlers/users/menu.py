@@ -1,7 +1,7 @@
 from aiogram.dispatcher.filters import Command, Text
 from aiogram.types import Message, ReplyKeyboardRemove
 from keyboards.default.menuKeyboard import menu
-from keyboards.default.pythonkeyboard import menuPyhon
+from keyboards.default.pythonkeyboard import menu_python
 
 from loader import dp
 
@@ -18,12 +18,12 @@ async def send_link(message: Message):
 
 @dp.message_handler(text="Python")
 async def send_python(message: Message):
-    await message.answer("Mavzuni tanlang", reply_markup=menuPyhon)
+    await message.answer("Mavzuni tanlang", reply_markup=menu_python)
 
 
 @dp.message_handler(text="Python")
 async def send_python(message: Message):
-    await message.answer("Mavzuni tanlang", reply_markup=menuPyhon)
+    await message.answer("Mavzuni tanlang", reply_markup=menu_python)
 
 
 @dp.message_handler(text="Kirish")
