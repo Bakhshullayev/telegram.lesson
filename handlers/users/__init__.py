@@ -1,4 +1,4 @@
 from . import help
 from . import start
-from . import menuHandler
+from . import umumiy_handler
 from . import echo
